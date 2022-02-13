@@ -14,7 +14,7 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <a href="#" class="logo"><span>Web</span>studio</a>
       <nav>
         <ul>
@@ -34,16 +34,14 @@
     </header>
   <body>
     <main>
-      <nav>
-        <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
-        </ul>
-      </nav>
-      <ul>
+      <ul class="filter">
+        <li><button type="button" class="filter-button active">Все</button></li>
+        <li><button type="button" class="filter-button">Веб-сайты</button></li>
+        <li><button type="button" class="filter-button">Приложения</button></li>
+        <li><button type="button" class="filter-button">Дизайн</button></li>
+        <li><button type="button" class="filter-button">Маркетинг</button></li>
+      </ul>
+      <ul class="portfolio">
         <li>
           <img src="./images-portfolio/technocriak-progressive.jpg" alt="Веб сайт"
           width="370"
@@ -53,7 +51,7 @@
           <p>Веб-сайт</p>
         </li>
         <li>
-          <img src="/images-portfolio/poster-progressive.jpg" alt="Постер"
+          <img src="./images-portfolio/poster-progressive.jpg" alt="Постер"
           width="370"
           height="295"
           />
@@ -61,7 +59,7 @@
           <p>Дизайн</p>
         </li>
         <li>
-          <img src="/images-portfolio/restaurant-progressive.jpg" alt="Ресторан"
+          <img src="./images-portfolio/restaurant-progressive.jpg" alt="Ресторан"
           width="370"
           height="295"
           />
@@ -69,7 +67,7 @@
           <p>Приложение</p>
         </li>
         <li>
-          <img src="/images-portfolio/prime-progressive.jpg" alt="Наушники" 
+          <img src="./images-portfolio/prime-progressive.jpg" alt="Наушники" 
           width="370"
           height="295"
           />
@@ -77,7 +75,7 @@
           <p>Маркетинг</p>
         </li>
         <li>
-          <img src="/images-portfolio/boxes-progressive.jpg" alt="Коробки" 
+          <img src="./images-portfolio/boxes-progressive.jpg" alt="Коробки" 
           width="370"
           height="295"
           />
@@ -85,7 +83,7 @@
           <p>Приложение</p>
         </li>
         <li>
-          <img src="/images-portfolio/inspiration -progressive.jpg" alt="монитор"
+          <img src="./images-portfolio/inspiration -progressive.jpg" alt="монитор"
           width="370"
           height="295"
            />
@@ -101,7 +99,7 @@
           <p>Дизайн</p>
         </li>
         <li>
-          <img src="/images-portfolio/lab-progressive.jpg" alt="Этикетка" 
+          <img src="./images-portfolio/lab-progressive.jpg" alt="Этикетка" 
           width="370"
           height="295"
           />
@@ -109,7 +107,7 @@
           <p>Маркетинг</p>
         </li>
         <li>
-          <img src="/images-portfolio/business-progressive.jpg" alt="Ноутбук" 
+          <img src="./images-portfolio/business-progressive.jpg" alt="Ноутбук" 
           width="370"
           height="295"
           />
@@ -118,5 +116,19 @@
         </li>
       </ul>
     </main>
+    <footer class="footer">
+      <a href="#" class="logo"><span>Web</span>studio</a>
+      <address>
+        <ul>
+          <li>
+            <a class="address" href="https://goo.gl/maps/8PfeJosgaNgY94wP7">
+              г. Киев, пр-т Леси Украинки, 26</a
+            >
+          </li>
+          <li><a class="email" href="mailto:info@example.com">info@example.com</a></li>
+          <li><a class="phone" href="tel:+380991111111">+38 099 111 11 11</a></li>
+        </ul>
+      </address>
+    </footer>
   </body>
 </html>
